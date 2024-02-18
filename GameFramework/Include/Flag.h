@@ -1,0 +1,101 @@
+#pragma once
+
+enum class ETexture_Type
+{
+	Sprite,
+	Frame
+};
+
+enum class ERender_Layer
+{
+	Back,
+	Tile,
+	Default,
+	Effect,
+	Max
+};
+
+enum class ECollision_Channel
+{
+	Default,
+	Player,
+	Monster,
+	DeadMonster,
+	PlayerAttack,
+	MonsterAttack,
+	Mouse,
+	Max
+};
+
+enum class ECollision_Interaction
+{
+	Ignore,
+	Collision
+};
+
+enum class ECollider_Type
+{
+	Box,
+	Circle
+};
+
+enum class EBrush_Type
+{
+	Red,
+	Green,
+	Black,
+	Blue,
+	Yellow,
+	Khaki,
+	Max
+};
+
+enum class EEffect_Type
+{
+	Once,
+	Duration,
+	Loop
+};
+
+enum class EButton_State
+{
+	Normal,
+	MouseHovered,
+	Click,
+	Disable,
+	Max
+};
+
+enum class EButton_Sound_State
+{
+	MouseHovered,
+	Click,
+	Max
+};
+
+enum class ETile_Option
+{
+	Normal,
+	ImpossibleToMove
+};
+
+enum class EPlayer_Select
+{
+	Player1,
+	Player2
+};
+
+enum class ETreasure_Result
+{
+	Garlic,
+	Bible,
+	Lightning,
+	Whip,
+	EvolvedBible,
+	AdditionalSkillSpeed,
+	AdditionalSkillDamage,
+	AdditionalSkillDuration,
+	AdditionalSkillProjectile,
+	Chicken
+};
+
